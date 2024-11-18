@@ -1,73 +1,76 @@
 @font-face {
-    font-family: 'Phantom Sans';
-    src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
-        format('woff'),
-      url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
-        format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-  }
+  font-family: "Phantom Sans";
+  src:
+    url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff")
+      format("woff"),
+    url("https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2")
+      format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 body {
-    background-color: #ec3750;
-    font-family: Phantom Sans, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #ec3750;
+  font-family:
+    Phantom Sans,
+    sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .cards {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-    padding: 50px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 20px;
-    width: 25%;
+  padding: 50px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 20px;
+  width: 25%;
 }
 
 .card p {
-    color: black;
+  color: black;
 }
 
 h1 {
-    font-size: 5cap;
-    padding-left: 5px;
-    color: white;
+  font-size: 5cap;
+  padding-left: 5px;
+  color: white;
 }
 
 p {
-    font-size: 3cap;
-    padding-left: 5px;
-    color: white;
+  font-size: 3cap;
+  padding-left: 5px;
+  color: white;
 }
 
 .header {
-    align-content: center;
-    align-self: center;
-    justify-self: center;
-    justify-content: center;
-    align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .header a {
-    background-color: white;
-    border-radius: 20px;
-    padding: 20px;
-    text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-decoration: none;
 }
 
 .button {
-    justify-self: center;
+  justify-self: center;
 }
 
 .footer {
-    justify-self: center;
+  justify-self: center;
 }
 
 .footer a {
-    color: white;
+  color: white;
 }
